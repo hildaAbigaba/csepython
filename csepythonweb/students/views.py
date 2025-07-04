@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def studentspage(request):
     return render(request, "students.html")
+
+def studentleadershippage(request):
+    return render(request, "studentleadership.html")

@@ -21,6 +21,7 @@ from home.views import aboutpage
 from home.views import contactpage
 from programs.views import programspage
 from students.views import studentspage
+from students.views import studentleadershippage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,5 +29,6 @@ urlpatterns = [
     path('about/', aboutpage),
     path('contact/', contactpage),
     path('programs/', programspage),
-    path('students/', studentspage)
+    path('students/', studentspage),
+    path('studentleadership/', studentleadershippage)
 ]
