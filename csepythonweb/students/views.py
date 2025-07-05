@@ -6,4 +6,4 @@ def studentspage(request):
     return render(request, "students.html")
 
 def studentleadershippage(request):
-    return render(request, "studentleadership.html")
+    return render(request, "studentleader.html")
